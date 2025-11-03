@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educa Já — Início</title>
+  <meta name="description" content="ONG Educa Já: alfabetização inclusiva para adultos e idosos.">
+</head>
+<body>
+  <header>
+    <nav aria-label="Principal">
+      <a href="index.html" aria-current="page">Início</a> ·
+      <a href="projetos.html">Projetos</a> ·
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+    <h1>Educa Já</h1>
+  </header>
+
+  <main id="conteudo">
+    <section>
+      <figure>
+        <picture>
+          <source srcset="assets/img/hero.webp" type="image/webp">
+          <img src="assets/img/hero.png" alt="Banner da ONG Educa Já"
+               width="1200" height="420" decoding="async">
+        </picture>
+        <figcaption>Educação que transforma vidas.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">Sobre a organização</h2>
+      <p>A Educa Já promove alfabetização inclusiva para adultos e idosos.</p>
+
+      <h3>Missão</h3>
+      <p>Alfabetizar com respeito e qualidade.</p>
+
+      <h3>Visão</h3>
+      <p>Ser referência na redução do analfabetismo.</p>
+
+      <h3>Valores</h3>
+      <ul>
+        <li>Respeito</li>
+        <li>Autonomia</li>
+        <li>Inclusão</li>
+        <li>Comprometimento</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contato">
+      <h2 id="contato">Contato</h2>
+      <address>
+        E-mail: <a href="mailto:contato@educaja.org.br">contato@educaja.org.br</a><br>
+        Telefone: <a href="tel:+551143217654">(11) 4321-7654</a>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Educa Já</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

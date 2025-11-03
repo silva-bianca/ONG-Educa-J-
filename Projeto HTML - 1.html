@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educa Já — Projetos</title>
+  <meta name="description" content="Conheça as frentes de atuação da Educa Já: turmas, oficinas e ações itinerantes.">
+</head>
+<body>
+  <header>
+    <nav aria-label="Principal">
+      <a href="index.html">Início</a> ·
+      <a href="projetos.html" aria-current="page">Projetos</a> ·
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+    <h1>Projetos</h1>
+  </header>
+
+  <main id="conteudo">
+    <section>
+      <figure>
+        <picture>
+          <source srcset="assets/img/projetos.webp" type="image/webp">
+          <img src="assets/img/projetos.png" alt="Projetos de alfabetização da Educa Já"
+               width="1200" height="420" decoding="async">
+        </picture>
+        <figcaption>Turmas, oficinas e ações itinerantes.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="frentes">
+      <h2 id="frentes">Frentes de atuação</h2>
+      <article>
+        <h3>Turmas Regulares</h3>
+        <p>Aulas semanais por nível, com acompanhamento pedagógico contínuo.</p>
+      </article>
+      <article>
+        <h3>Ações Itinerantes</h3>
+        <p>Mutirões em territórios prioritários para ampliar o acesso.</p>
+      </article>
+      <article>
+        <h3>Oficinas Temáticas</h3>
+        <p>Leitura funcional e práticas do cotidiano para autonomia.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="vol">
+      <h2 id="vol">Seja voluntário(a)</h2>
+      <p>Atue como alfabetizador(a) ou apoio pedagógico.</p>
+      <p><a href="cadastro.html">Inscreva-se</a> e selecione “Voluntário(a)”.</p>
+    </section>
+
+    <section aria-labelledby="doar">
+      <h2 id="doar">Como doar</h2>
+      <ul>
+        <li>Doação recorrente</li>
+        <li>Doação única</li>
+      </ul>
+      <p><a href="cadastro.html">Inscreva-se</a> e selecione “Doador(a)”.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Educa Já</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
